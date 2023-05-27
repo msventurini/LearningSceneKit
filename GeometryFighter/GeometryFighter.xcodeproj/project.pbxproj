@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EA51AAFA2A225CB200684127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA51AAF92A225CB200684127 /* AppDelegate.swift */; };
-		EA51AAFC2A225CB200684127 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EA51AAFB2A225CB200684127 /* art.scnassets */; };
 		EA51AAFE2A225CB200684127 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA51AAFD2A225CB200684127 /* GameViewController.swift */; };
 		EA51AB012A225CB200684127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA51AAFF2A225CB200684127 /* Main.storyboard */; };
 		EA51AB032A225CB300684127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA51AB022A225CB300684127 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		EA51AAF62A225CB200684127 /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA51AAF92A225CB200684127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA51AAFB2A225CB200684127 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		EA51AAFD2A225CB200684127 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EA51AB002A225CB200684127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA51AB022A225CB300684127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				EA51AAF92A225CB200684127 /* AppDelegate.swift */,
-				EA51AAFB2A225CB200684127 /* art.scnassets */,
 				EA51AAFD2A225CB200684127 /* GameViewController.swift */,
 				EA51AAFF2A225CB200684127 /* Main.storyboard */,
 				EA51AB022A225CB300684127 /* Assets.xcassets */,
@@ -123,7 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA51AAFC2A225CB200684127 /* art.scnassets in Resources */,
 				EA51AB062A225CB300684127 /* LaunchScreen.storyboard in Resources */,
 				EA51AB032A225CB300684127 /* Assets.xcassets in Resources */,
 				EA51AB012A225CB200684127 /* Main.storyboard in Resources */,
