@@ -34,6 +34,14 @@ class GameViewController: UIViewController {
         // fazemos um cast da self.view para a scnview aqui
         // para não precisarmos fazer isso toda hora
         scnView = self.view as! SCNView
+        
+        scnView.showsStatistics = true
+        
+        scnView.allowsCameraControl = true
+        
+        scnView.autoenablesDefaultLighting = true
+        
+        
     }
     
     func setupScene() {
