@@ -12,6 +12,7 @@
 		EA51AB012A225CB200684127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA51AAFF2A225CB200684127 /* Main.storyboard */; };
 		EA51AB032A225CB300684127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA51AB022A225CB300684127 /* Assets.xcassets */; };
 		EA51AB062A225CB300684127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA51AB042A225CB300684127 /* LaunchScreen.storyboard */; };
+		EA51AB0D2A22FCA500684127 /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EA51AB0C2A22FCA500684127 /* GeometryFighter.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EA51AB002A225CB200684127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA51AB022A225CB300684127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA51AB052A225CB300684127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA51AB0C2A22FCA500684127 /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				EA51AAFF2A225CB200684127 /* Main.storyboard */,
 				EA51AB022A225CB300684127 /* Assets.xcassets */,
 				EA51AB042A225CB300684127 /* LaunchScreen.storyboard */,
+				EA51AB0C2A22FCA500684127 /* GeometryFighter.scnassets */,
 			);
 			path = GeometryFighter;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 				EA51AB062A225CB300684127 /* LaunchScreen.storyboard in Resources */,
 				EA51AB032A225CB300684127 /* Assets.xcassets in Resources */,
 				EA51AB012A225CB200684127 /* Main.storyboard in Resources */,
+				EA51AB0D2A22FCA500684127 /* GeometryFighter.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

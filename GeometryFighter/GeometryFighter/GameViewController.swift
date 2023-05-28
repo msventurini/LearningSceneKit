@@ -42,6 +42,9 @@ class GameViewController: UIViewController {
         // posteriormente iremos colocar componentes como
         // câmera, geometrias, luzes e partículas como filhos
         // dessa scene!
+        
+        scnScene.background.contents = "GeometryFighter.scnassets/Textures/Background_Diffuse.jpg"
+        
     }
     
 }
