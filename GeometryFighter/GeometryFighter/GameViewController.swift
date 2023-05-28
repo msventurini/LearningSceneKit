@@ -96,6 +96,18 @@ class GameViewController: UIViewController {
         }
         
         let geometryNode = SCNNode(geometry: geometry)
+        // quando passamos "nil" como shape, o scenekit define automaticamente o physics body
+        // a partir do formato do nodo
+        geometryNode.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
+        
+        let randomX = Float.random(min: -2, max: 2)
+        let randomY = Float.random(min: 10, max: 18)
+        
+        let force = SCNVector3(x: randomX, y: randomY, z: 0)
+        
+        let position = SCNVector3(x: 0.05, y: 0.05, z: 0.05)
+        
+        geometryNode.physicsBody?.applyForce(force, at: position, asImpulse: true)
         
         scnScene.rootNode.addChildNode(geometryNode)
         
