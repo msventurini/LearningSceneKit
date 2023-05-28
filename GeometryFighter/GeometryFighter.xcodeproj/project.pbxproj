@@ -13,6 +13,7 @@
 		EA51AB032A225CB300684127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA51AB022A225CB300684127 /* Assets.xcassets */; };
 		EA51AB062A225CB300684127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA51AB042A225CB300684127 /* LaunchScreen.storyboard */; };
 		EA51AB0D2A22FCA500684127 /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EA51AB0C2A22FCA500684127 /* GeometryFighter.scnassets */; };
+		EA51AB0F2A2305A400684127 /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA51AB0E2A2305A400684127 /* ShapeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EA51AB022A225CB300684127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA51AB052A225CB300684127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA51AB0C2A22FCA500684127 /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
+		EA51AB0E2A2305A400684127 /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EA51AB022A225CB300684127 /* Assets.xcassets */,
 				EA51AB042A225CB300684127 /* LaunchScreen.storyboard */,
 				EA51AB0C2A22FCA500684127 /* GeometryFighter.scnassets */,
+				EA51AB0E2A2305A400684127 /* ShapeType.swift */,
 			);
 			path = GeometryFighter;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA51AAFE2A225CB200684127 /* GameViewController.swift in Sources */,
+				EA51AB0F2A2305A400684127 /* ShapeType.swift in Sources */,
 				EA51AAFA2A225CB200684127 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

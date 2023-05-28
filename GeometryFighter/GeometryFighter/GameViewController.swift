@@ -20,6 +20,7 @@ class GameViewController: UIViewController {
         setupView()
         setupScene()
         setupCamera()
+        spawnShape()
     }
     
     override var shouldAutorotate: Bool {
@@ -63,5 +64,21 @@ class GameViewController: UIViewController {
         scnScene.rootNode.addChildNode(cameraNode)
     }
     
+    func spawnShape() {
+        
+        var geometry: SCNGeometry
+        
+        switch ShapeType.random() {
+        default:
+            
+            geometry = SCNBox(width: 1.0, height: 1.0, length: 1.0, chamferRadius: 0.0)
+            
+        }
+        
+        let geometryNode = SCNNode(geometry: geometry)
+        
+        scnScene.rootNode.addChildNode(geometryNode)
+        
+    }
     
 }
