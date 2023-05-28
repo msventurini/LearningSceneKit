@@ -14,6 +14,7 @@ enum ShapeType:Int {
     case torus
     case capsule
     case cylinder
+    case cone
     case tube
     
     
